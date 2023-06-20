@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+  border-bottom: 0.15vh solid var(--light-gray);
+  padding: 2vh 4vh;
+  align-items: center;
+  background-color: transparent;
+  .logo {
+    height: 10vh;
+  }
+  .menuList {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    .listItem {
+      cursor: pointer;
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+}
